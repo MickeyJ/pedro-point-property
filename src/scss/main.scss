@@ -1,0 +1,23 @@
+@import 'util/vars';
+@import 'util/mix';
+@import 'util/color';
+@import 'util/flex';
+
+@import 'layout/base';
+@import 'layout/nav-header';
+@import 'layout/footer';
+
+
+#slide-wrap{
+  @extend %clearFix;
+  margin-bottom: 2.5%;
+}
+
+.rslides{
+  @include box-shadow-2;
+
+  &:hover {
+    cursor: url('../images/pause3.png'), default;
+  }
+}
+

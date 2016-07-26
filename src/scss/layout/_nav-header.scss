@@ -1,0 +1,18 @@
+
+#top-wrap{
+  @include webkitMoz(box-sizing, border-box);
+  @include resetMP;
+
+  #navigation{
+    padding: 0.5%;
+  }
+
+  #pano-header{
+    @include resetMP;
+    @include box-shadow;
+    @include transition(all 0.2s);
+    width: 100%;
+    cursor: pointer;
+  }
+
+}

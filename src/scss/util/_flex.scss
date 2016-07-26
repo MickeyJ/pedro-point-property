@@ -1,0 +1,49 @@
+
+
+.col{
+  @include display(flex);
+  @include flex-wrap(no-wrap);
+  @include flex-direction(column);
+}
+
+.col-space{
+  @include display(flex);
+  @include flex-wrap(no-wrap);
+  @include flex-direction(column);
+  @include justify-content(space-around);
+}
+
+.col-center{
+  @include display(flex);
+  @include flex-wrap(no-wrap);
+  @include flex-direction(column);
+  @include align-items(center);
+}
+
+.row{
+  @include display(flex);
+  @include flex-wrap(no-wrap);
+  @include flex-direction(row);
+}
+
+.row-wrap{
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include flex-direction(row);
+}
+
+.row-space{
+  @include display(flex);
+  @include flex-wrap(no-wrap);
+  @include flex-direction(row);
+  @include justify-content(space-around);
+
+}
+
+.row-center{
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include flex-direction(row);
+  @include justify-content(space-around);
+  @include align_items(center);
+}

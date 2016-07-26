@@ -1,0 +1,21 @@
+{
+  "name": "property-site",
+  "description": "",
+  "main": "",
+  "authors": [
+    "MickeyJ <develop.agility@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap-css": "^3.3.6"
+  }
+}
